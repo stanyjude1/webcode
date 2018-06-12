@@ -1,8 +1,8 @@
 {
-    "title": "Landing Page",
-    "name": "startbootstrap-landing-page",
+    "title": "Creative",
+    "name": "startbootstrap-creative",
     "version": "4.1.1",
-    "description": "An HTML landing page template built with Bootstrap",
+    "description": "Creative is a stylish one page HTML theme for Bootstrap.",
     "keywords": [
         "css",
         "sass",
@@ -11,9 +11,9 @@
         "theme",
         "template"
     ],
-    "homepage": "https://startbootstrap.com/template-overviews/landing-page",
+    "homepage": "https://startbootstrap.com/template-overviews/creative",
     "bugs": {
-        "url": "https://github.com/BlackrockDigital/startbootstrap-landing-page/issues",
+        "url": "https://github.com/BlackrockDigital/startbootstrap-creative/issues",
         "email": "feedback@startbootstrap.com"
     },
     "license": "MIT",
@@ -23,13 +23,15 @@
     ],
     "repository": {
         "type": "git",
-        "url": "https://github.com/BlackrockDigital/startbootstrap-landing-page.git"
+        "url": "https://github.com/BlackrockDigital/startbootstrap-creative.git"
     },
     "dependencies": {
         "bootstrap": "4.1.1",
         "font-awesome": "4.7.0",
         "jquery": "3.3.1",
-        "simple-line-icons": "^2.4.1"
+        "jquery.easing": "^1.4.1",
+        "magnific-popup": "^1.1.0",
+        "scrollreveal": "3.4.0"
     },
     "devDependencies": {
         "browser-sync": "2.24.3",
@@ -37,6 +39,7 @@
         "gulp-clean-css": "3.9.4",
         "gulp-header": "2.0.5",
         "gulp-rename": "^1.2.2",
-        "gulp-sass": "4.0.1"
+        "gulp-sass": "4.0.1",
+        "gulp-uglify": "3.0.0"
     }
 }
